@@ -25,6 +25,6 @@ body {
       }
       
     .red{
-        grid-row:4/5;
-
+        grid-row:9/12;
+        grid-column: 3/4;
     }
