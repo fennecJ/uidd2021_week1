@@ -2,11 +2,13 @@
 
 
     img{
-        width: 100%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/
+        width: 100%; 
+        max-height: 8vh;
+       
         margin: auto;
         padding: 0px;
         left: 0;
-        top: -50;
+        
         position:absolute;
         vertical-align:middle;
     }
