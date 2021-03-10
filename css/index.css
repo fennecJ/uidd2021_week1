@@ -10,7 +10,7 @@ body{
     background-size: cover;
     overflow: hidden;
     }
-    .icon_left{
+    .icon{
 
         display: flex;
         flex-direction: row;
@@ -30,8 +30,8 @@ body{
         position: relative;
         max-height: 6.3636vh;
         overflow:hidden;
-        border: 0;
-        z-index: 2;
+        top: 0;
+        z-index: 1;
     }
 
 
