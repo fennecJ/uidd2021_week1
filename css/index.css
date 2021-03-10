@@ -97,7 +97,17 @@ body{
     height: 28%;
     overflow: hidden;
     }
+    
     #_chair:hover{
         transition: all 0.5s ease-out;
         transform:scale(1.2);
       }
+
+      #_chair2{
+        position:absolute;
+        left: 20%;
+        bottom:4.9%;
+        width: 22%;
+        height: 31%;
+        overflow: hidden;
+        }
