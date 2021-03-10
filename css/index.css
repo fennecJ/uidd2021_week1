@@ -111,3 +111,7 @@ body{
         height: 31%;
         overflow: hidden;
         }
+         #_chair2:hover{
+          transition: all 0.5s ease-out;
+          transform:scale(1.2);
+        }
