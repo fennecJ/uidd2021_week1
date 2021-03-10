@@ -37,12 +37,18 @@ body{
         flex-direction: row;
         margin: auto;
         position: relative;
+        
         max-height: 6.3636vh;
         overflow:hidden;
         border: 0;
         z-index: 2;
     }
-    
+    .icon img{
+      max-width: 6%;
+      min-width: 6%;
+    }
+
+
     .icon_right{
         display: flex;
         flex-direction: row-reverse;
