@@ -1,33 +1,100 @@
 
 
 
-    img{
-        width: 100%; 
-        max-height: 8vh;
-       
+#wb{
+    overflow:hidden;
+    position:absolute;
+    width:100%; 
+    height: 7vh;
+    min-height: 7vh;
+    max-height: 7vh;
+    padding-top: 0px;
+    margin: auto;
+    border: 0;
+    top: 0;
+    z-index: -1;
+    }
+
+
+
+
+body{
+    margin: 0; 
+    padding: 0;
+    background-image:url( '../source/bg.jpg' );
+    background-attachment: fixed;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    }
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .icon{
+
+        display: flex;
+        flex-direction: row;
         margin: auto;
-        padding-top: 0px;
-        left: 0px;
-        top: 0px;
-        position:absolute;
-        vertical-align:middle;
+        position: relative;
+        max-height: 6.3636vh;
+        overflow:hidden;
+        border: 0;
+        z-index: 2;
     }
-
-
-    /*
-    .img {
-        width: 100px;
-        height: 100px;
     
-        margin: 10px;
-       }
-    */
-   
-
-    .button:hover #menu{
-    display: inline-block;
-
+    .icon_right{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: auto;
+        width:60%;
+        position: relative;
+        max-height: 6.3636vh;
+        overflow:hidden;
+        top: 0;
+        z-index: 1;
     }
-    #menu{
-        display:none;
+
+
+  #_room:hover{
+    transition: all 1s ease-out;
+    transform:scale(1.1);
+  }
+  #_product:hover{
+    transition: all 1s ease-out;
+    transform:scale(1.1);
+  }
+  #_sale:hover{
+    transition: all 1s ease-out;
+    transform:scale(1.1);
+  }
+  #_contact:hover{
+    transition: all 1s ease-out;
+    transform:scale(1.1);
+  }
+  #_car:hover{
+    transition: all 1s ease-out;
+    transform:scale(1.2);
+  }
+  #_user:hover{
+    transition: all 1s ease-out;
+    transform:scale(1.2);
+  }
+  #_love:hover{
+    transition: all 1s ease-out;
+    transform:scale(1.2);
+  }
+
+
+   #_chair{
+    position:absolute;
+    left: 21%;
+    bottom:3%;
+    width: 19%;
+    height: 28%;
+    overflow: hidden;
     }
+    #_chair:hover{
+        transition: all 0.5s ease-out;
+        transform:scale(1.2);
+      }
