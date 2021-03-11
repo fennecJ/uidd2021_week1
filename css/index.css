@@ -8,7 +8,7 @@
     min-height: 7vh;
     max-height: 7vh;
     padding-top: 0px;
-    margin: auto;
+    margin: 0;
     border: 0;
     top: 0;
     z-index: -1;
@@ -34,25 +34,27 @@ body{
 
         display: flex;
         flex-direction: row;
-        margin: auto;
+        margin: 0;
         position: relative;
-        
+        left: 4%;
         max-height: 6.3636vh;
         overflow:hidden;
         border: 0;
         z-index: 2;
     }
     .icon img{
-      max-width: 6%;
-      min-width: 6%;
+      max-width: 12%;
+      min-width: 12%;
     }
 
 
     .icon_right{
         display: flex;
         flex-direction: row-reverse;
-        margin: auto;
+        margin: 0;
+        padding-right:5% ;
         width:60%;
+        
         position: relative;
         max-height: 6.3636vh;
         overflow:hidden;
@@ -62,31 +64,31 @@ body{
 
 
   #_room:hover{
-    transition: all  1s ease-out;
+    transition: all  0.5s ease-out;
     transform:scale(1.1);
   }
   #_product:hover{
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
     transform:scale(1.1);
   }
   #_sale:hover{
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
     transform:scale(1.1);
   }
-  #_contact:hover{
-    transition: all 1s ease-out;
+#_contact:hover{
+    transition: all 0.5s ease-out;
     transform:scale(1.1);
-  }
+}
   #_car:hover{
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
     transform:scale(1.2);
   }
   #_user:hover{
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
     transform:scale(1.2);
   }
   #_love:hover{
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
     transform:scale(1.2);
   }
    #_chair{
