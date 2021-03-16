@@ -38,7 +38,7 @@ z-index: -1;
 }
 
 #bg img{
-    height: 500px;
+    height: 440px;
     width: auto;
     margin-bottom: 0;
 }
@@ -48,7 +48,7 @@ z-index: -1;
     width: 70vw;
     height:80px;
     background-color:#F2EEE5;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     line-height:40px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #9B9B9B;
@@ -133,4 +133,13 @@ z-index: -1;
 
     .hblank{
         width: 180px;
+    }
+
+    #bottom_menu_bg{
+        background-color: #DACFBB;
+        width: 100%;
+        position: absolute;
+        height: 60px;
+        bottom: 0;
+        margin: 0;
     }
