@@ -104,7 +104,23 @@ z-index: -1;
     .heart { grid-area: heart; }
     .shop { grid-area: shop; }
 
-    .more_info{
+
+
+
+    .scroll_box *{
+        width: 20%;
+        margin: 0 auto;
+    }   
+    
+    .scroll_box img{
+        width: 80%;
+        margin: 0 auto;
+    }   
+    .option{
+    padding-top: 90px;
+    width: 5%;
+    }   
+     .more_info{
     margin: 5px;
     text-align: center;
     line-height: 30px;
@@ -115,8 +131,4 @@ z-index: -1;
     height:35px;
     background-color:#D3B1A5;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    .option{
-    padding-top: 90px;
-
     }
