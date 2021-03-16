@@ -62,3 +62,24 @@ z-index: -1;
     background-color:#FFFFFF;
     overflow:auto;
     }
+
+      .grid-container {      
+        width:100%;
+        justify-content: center;
+        align-items: center; 
+        display: grid;
+        grid-template-columns: 1.3fr 1.3fr 1.3fr 1.3fr 1.3fr 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+          ". Room Product Sale Contact user heart shop"
+          ". . . . . . . ."
+          ". . . . . . . .";
+      }
+      .Room { grid-area: Room; }
+      .Product { grid-area: Product; }
+      .Sale { grid-area: Sale; }
+      .Contact { grid-area: Contact; }
+      .user { grid-area: user; }
+      .heart { grid-area: heart; }
+      .shop { grid-area: shop; }
