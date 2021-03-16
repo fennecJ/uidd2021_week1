@@ -5,6 +5,14 @@ margin:0;
 padding: 0;
 }
 
+
+
+body{
+text-align:center;
+margin:0 auto; 
+}
+
+
 #menu_bg{
 display: flex;
 flex-direction:row;
@@ -23,9 +31,9 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 #bg{
 text-align:center;
-height: 520px;
+height: auto;
 margin:0 auto;   /*剪掉圖片一半寬使其水平置中*/
-margin-bottom: 0;
+margin-bottom: 20px;
 z-index: -1;
 }
 
@@ -37,7 +45,7 @@ z-index: -1;
 #product_info{
     text-align: center;
     margin:0 auto; 
-    width: 1360px;
+    width: 70vw;
     height:80px;
     background-color:#F2EEE5;
     margin-bottom: 20px;
@@ -59,7 +67,7 @@ z-index: -1;
     margin-top: 0px;
     padding-top: 0;
     bottom: 0;
-    width:1360px;
+    width:70vw;
     height: calc(100vh - 700px);
     background-color:#FFFFFF;
     overflow:auto;
