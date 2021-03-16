@@ -6,11 +6,10 @@ padding: 0;
 }
 
 #bg{
+text-align:center;
+width: auto;
+margin:0 auto;   /*剪掉圖片一半寬使其水平置中*/
 
-padding: auto;
-position: absolute;
-left: 50%;
-margin-left: -679px;   /*剪掉圖片一半寬使其水平置中*/
 z-index: -1;
 
 }
@@ -20,3 +19,16 @@ z-index: 1;
 position: fixed;
 top: 10vh;
 }
+
+.scroll_box {
+    padding-top: 0;
+    text-align:center;
+    margin: 0 auto;
+    bottom: 0;
+    border:1px solid #cccccc;
+    width:1358px;
+    height: calc(100vh - 676px);
+
+    background-color:#FFFFFF;
+    overflow:auto;
+    }
