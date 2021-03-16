@@ -7,28 +7,29 @@ padding: 0;
 
 #bg{
 text-align:center;
-width: auto;
+height: 676px;
 margin:0 auto;   /*剪掉圖片一半寬使其水平置中*/
-
+margin-bottom: 0;
 z-index: -1;
 
 }
 
-#chair{
-z-index: 1;
-position: fixed;
-top: 10vh;
-}
 
 .scroll_box {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+
     padding-top: 0;
     text-align:center;
     margin: 0 auto;
+    margin-top: 0px;
+    padding-top: 0;
     bottom: 0;
-    border:1px solid #cccccc;
     width:1358px;
     height: calc(100vh - 676px);
-
     background-color:#FFFFFF;
     overflow:auto;
     }
