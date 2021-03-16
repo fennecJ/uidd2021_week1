@@ -104,4 +104,15 @@ z-index: -1;
     .heart { grid-area: heart; }
     .shop { grid-area: shop; }
 
-
+    .more_info{
+    margin: 5px;
+    text-align: center;
+    line-height: 30px;
+    border:2px #ccc solid;
+    border-radius:40px;
+    width:75px;
+    height:35px;
+    background-color:#eee;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #9B9B9B;
+    }
