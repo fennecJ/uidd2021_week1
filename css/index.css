@@ -5,6 +5,13 @@ margin:0;
 padding: 0;
 }
 
+#menu_bg{
+width:100%;
+height: 100px;
+}
+
+
+
 #bg{
 text-align:center;
 height: 676px;
