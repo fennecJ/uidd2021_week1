@@ -158,11 +158,28 @@
 
 <script>
   function expand() {
-    document.getElementsByClassName("scroll_box")[0].style.height = "94vh";
+    document.getElementsByClassName("scroll_box")[0].style.height = "60vh";
     document.getElementsByClassName("scroll_box")[0].style.zIndex = "10";
     document.getElementsByClassName("scroll_box")[0].style.position="absolute";
-    document.getElementsByClassName("scroll_box")[0].style.top="80px";
+    document.getElementsByClassName("scroll_box")[0].style.bottom="6vh";
     document.getElementsByClassName("scroll_box")[0].style.left="50%";
     document.getElementsByClassName("scroll_box")[0].style.transform= "translate(-50%, -0%)";
+    document.getElementById("product_info").style.bottom="66vh";
+    document.getElementById("product_info").style.position="absolute";
+    document.getElementById("product_info").style.left="50%";
+    document.getElementById("product_info").style.transform= "translate(-50%, -0%)";
+
+    if(document.getElementById("exp").innerHTML=="點我縮起▼"){
+    document.getElementById("exp").innerHTML="點我展開▲";
+    document.getElementsByClassName("scroll_box")[0].style.height = "30vh";
+    document.getElementById("product_info").style.bottom="36vh";
+    }
+    else{
+      
+    document.getElementById("exp").innerText='點我縮起▼';
+    
+  
+  }
+    
   }
   </script>
