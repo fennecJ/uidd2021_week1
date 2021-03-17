@@ -157,7 +157,11 @@
 
 <script>
   function expand() {
-    document.getElementsByClassName("scroll_box")[0].style.height = "100vh";
+    document.getElementsByClassName("scroll_box")[0].style.height = "94vh";
     document.getElementsByClassName("scroll_box")[0].style.zIndex = "10";
+    document.getElementsByClassName("scroll_box")[0].style.position="absolute";
+    document.getElementsByClassName("scroll_box")[0].style.top="80px";
+    document.getElementsByClassName("scroll_box")[0].style.left="50%";
+    document.getElementsByClassName("scroll_box")[0].style.transform= "translate(-50%, -0%)";
   }
   </script>
