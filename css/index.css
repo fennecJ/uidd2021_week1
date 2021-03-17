@@ -102,6 +102,10 @@ z-index: -1;
     .Contact { grid-area: Contact; }
     .user { grid-area: user; }
     .heart { grid-area: heart; }
+    .heart img{
+      width: 45px;
+      height: 45px;
+    }
     .shop { grid-area: shop; }
 
 
