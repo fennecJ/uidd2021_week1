@@ -22,7 +22,17 @@
 </div>
 
 
-<div id="bg"><img src="./source/Proposal_2/50.jpg"></div>
+<div id="bg"><img src="./source/Proposal_2/40.jpg">
+<!--
+<div id="Totebo"><img src="./source/Proposal_2/43.jpg"></div>
+<div id="Buskbo"><img src="./source/Proposal_2/44.jpg"></div>
+<div id="Kragsta_black"><img src="./source/Proposal_2/45.jpg"></div>
+<div id="Kragsta_big"><img src="./source/Proposal_2/46.jpg"></div>
+<div id="Regnskur_vi"><img src="./source/Proposal_2/47.jpg"></div>
+<div id="Totebo"><img src="./source/Proposal_2/48.jpg"></div>
+<div id="Totebo"><img src="./source/Proposal_2/49.jpg"></div>
+-->
+</div>
 
 
 <div id="product_info">
@@ -158,24 +168,16 @@
 
 <script>
   function expand() {
-    document.getElementsByClassName("scroll_box")[0].style.height = "60vh";
+    document.getElementsByClassName("scroll_box")[0].style.height = "calc(100vh - 240px)";
     document.getElementsByClassName("scroll_box")[0].style.zIndex = "10";
-    document.getElementsByClassName("scroll_box")[0].style.position="absolute";
-    document.getElementsByClassName("scroll_box")[0].style.bottom="6vh";
-    document.getElementsByClassName("scroll_box")[0].style.left="50%";
-    document.getElementsByClassName("scroll_box")[0].style.transform= "translate(-50%, -0%)";
-    document.getElementById("product_info").style.bottom="66vh";
-    document.getElementById("product_info").style.position="absolute";
-    document.getElementById("product_info").style.left="50%";
-    document.getElementById("product_info").style.transform= "translate(-50%, -0%)";
-
+    /*document.getElementsByClassName("scroll_box")[0].style.position="absolute";*/
+    document.getElementById("bg").style.display='none';
     if(document.getElementById("exp").innerHTML=="點我縮起▼"){
     document.getElementById("exp").innerHTML="點我展開▲";
-    document.getElementsByClassName("scroll_box")[0].style.height = "30vh";
-    document.getElementById("product_info").style.bottom="36vh";
+    document.getElementsByClassName("scroll_box")[0].style.height = "calc(100vh - 700px)";
+    document.getElementById("bg").style.display='block';
     }
     else{
-      
     document.getElementById("exp").innerText='點我縮起▼';
     
   
